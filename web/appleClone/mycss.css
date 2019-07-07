@@ -1,0 +1,192 @@
+body {
+  background-color: black;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  height: 40px;
+  width: 230px;
+  margin-top: 50px;
+}
+
+.content h2 {
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topnav h4 {
+  font-family: fantasy;
+  font-size: 13px;
+  font-weight: 100;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  padding-left: 246px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 50px 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.active img {
+  height: 25px;
+  width: 25px;
+  padding-top: 11px;
+}
+
+#search {
+  padding: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+#shop {
+  padding: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.nav h4 {
+  font-family: fantasy;
+  font-size: 11px;
+  font-weight: 100;
+  color: white;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 4px 10px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0px 10px 20px 0px;
+}
+
+.nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 6.5%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(55, 55, 55);
+  width: 103%;
+  padding-top: 3px;
+  margin: -20px -1100px;
+}
+
+#buy {
+  color: white;
+  background: linear-gradient(#42a1ec, #0070c9);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(rgb(66, 161, 236), rgb(0, 112, 201));
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  border-color: #07c;
+  border-top-color: rgb(0, 119, 204);
+  border-right-color: rgb(0, 119, 204);
+  border-bottom-color: rgb(0, 119, 204);
+  border-left-color: rgb(0, 119, 204);
+  font-size: 12px;
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  border-radius: 12px;
+  padding: 3px 11px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.nav img {
+  height: 20px;
+  width: 120px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 248px;
+}
+
+span {
+  padding-left: 175px;
+}
+
+#display {
+  background: -webkit-linear-gradient(-50deg,
+      rgb(32, 121, 255),
+      white,
+      rgb(167, 86, 167) 65%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  margin-left: 280px;
+  font-family: fantasy;
+}
+
+#more {
+  color: white;
+  background-color: rgba(255, 99, 71, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-size: 15px;
+  line-height: 0.2px;
+  font-weight: 250;
+  letter-spacing: 0.1em;
+  border-radius: 250px;
+  padding: 20px;
+  margin-top: 9px;
+  font-family: Arial;
+  margin-left: 280px;
+  height: 50px;
+  width: 150px;
+  border-color: white;
+  transition: 0.5s;
+}
+
+#more:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#compare {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 23px;
+}
+
+#compare:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
