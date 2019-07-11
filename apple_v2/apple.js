@@ -25,4 +25,7 @@ document.getElementById("bag").addEventListener('click', function () {
 })
 document.getElementById("buy").addEventListener('click', function () {
     document.open("https://www.apple.com/ru/shop/buy-iphone/iphone-xr", '', '');
-})
+});
+document.getElementById('more').addEventListener('click', function () {
+    document.open('https://www.apple.com/ru/iphone-xr/display/', '', '');
+});
