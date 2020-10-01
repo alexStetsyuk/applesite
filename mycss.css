@@ -30,12 +30,12 @@ a {
   color: white;
 }
 
-.topnav {
+.navigation-wrapper {
   overflow: hidden;
   padding-left: 246px;
 }
 
-.topnav a {
+.navigation-wrapper a {
   float: left;
   color: #f2f2f2;
   text-align: center;
