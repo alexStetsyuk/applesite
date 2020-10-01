@@ -178,6 +178,7 @@ span {
   color: black;
   cursor: pointer;
   transition: 0.5s;
+  text-align: center;
 }
 
 #compare {
