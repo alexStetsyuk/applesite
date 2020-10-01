@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  text-align: center;
+  text-align: none;
 }
 
 .header img {
@@ -138,10 +138,12 @@ span {
 }
 
 #display {
-  background: -webkit-linear-gradient(-50deg,
-      rgb(32, 121, 255),
-      white,
-      rgb(167, 86, 167) 65%);
+  background: -webkit-linear-gradient(
+    -50deg,
+    rgb(32, 121, 255),
+    white,
+    rgb(167, 86, 167) 65%
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 55px;
